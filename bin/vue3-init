@@ -1,0 +1,95 @@
+#!/usr/bin/env node
+const { program } = require('commander');
+const figlet = require('figlet');
+const versionStr = figlet.textSync('Lucien');
+const Printer = require('@darkobits/lolcatjs');
+const shell = require('shelljs');
+let json2ts = require('json2ts');
+const _version = require('../package.json').version;
+const chalk = require('chalk');
+const inquirer = require('inquirer');
+const ora = require('ora');
+const download = require('download-git-repo');
+program.version(
+  Printer.default.fromString(
+    `   \n      vue-init脚手架${_version}\n    \n${versionStr}`
+  )
+);
+program.option('create', '初始化项目');
+// program.option('-j,json2ts', '生成TypeScript🐻');
+
+const create = (otherParmas) => {
+  inquirer
+      .prompt([
+        {
+          type: 'text',
+          message: '① 请输入文件夹名称',
+          name: 'dirname',
+        },
+        // {
+        //   type: 'list',
+        //   name: 'jskind',
+        //   message: '② 请选择开发语言',
+        //   choices: ['☉ TypeScript', '☉ EcmaScript6'],
+        // },
+      ])
+      .then((answers) => {
+          // console.log(answers);
+        const _pwd = shell.pwd().stdout;
+        const projectPath = `${_pwd}/${answers.dirname}`;
+        // console.log('用户的全路径', projectPath, answers.jskind);
+        shell.rm('-rf', projectPath);
+        shell.mkdir(projectPath);
+        const spinner = ora('⏰ downloading template.....');
+        spinner.start();
+        const template =
+            'direct:https://github.com/912380760/vue3-init.git';
+        download(template, projectPath, { clone: true }, function (err) {
+          spinner.stop();
+          // 提示用户打开文件夹和安装依赖
+          console.log(chalk.blue(`cd ${answers.dirname} \nyarn or npm install`))
+          // if (err) {
+          //   //git下载会报错,但是下载是成功的
+          //   console.log(typeof err);
+          //   console.log(chalk.red('下载失败😭'));
+          // } else {
+          //   shell.sed(
+          //       '-i',
+          //       'vue3-init',
+          //       answers.dirname,
+          //       projectPath + '/package.json'
+          //   );
+          // }
+        });
+      });
+}
+
+const bindHandler = {
+  create,
+  // json2ts(url) {
+  //   const data = {
+  //     yideng: 'laoyuan',
+  //     data: {
+  //       age: 30 || '',
+  //     },
+  //   };
+  //   const jsonContent = JSON.stringify(data);
+  //   let result = json2ts.convert(jsonContent);
+  //   console.log(result);
+  // },
+};
+program
+  .usage('[cmd] <options>')
+  .arguments('<cmd> [env]')
+  .action(function (cmd, otherParmas) {
+    const handler = bindHandler[cmd];
+    // console.log(cmd, otherParmas);
+    if (typeof handler === 'undefined') {
+      console.log(chalk.blue(`${cmd}`) + chalk.red('暂未支持'));
+    } else {
+      handler(otherParmas);
+    }
+    // console.log('cmd', cmd);
+    // console.log('otherParmas', otherParmas);
+  });
+program.parse(process.argv);
