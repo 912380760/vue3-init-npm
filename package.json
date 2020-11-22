@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["vue3", "vue"],
-  "author": "",
+  "author": "Lucien Huang",
   "license": "ISC",
   "dependencies": {
     "@babel/runtime": "^7.12.5",
