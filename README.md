@@ -3,7 +3,7 @@
 
 
 <p align="center">Project init plugin for Vue.js</p>
-<p align="center">Install `npm install -g vue3-init or yarn add global vue3-init`</p>
+<p align="center">npm install -g vue3-init</p>
 
 <br/>
 
