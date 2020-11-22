@@ -1,6 +1,6 @@
 {
   "name": "vue3-init",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Quickly initialize the vue3 project",
   "main": "index.js",
   "bin": {
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["vue3", "vue"],
   "author": "",
   "license": "ISC",
   "dependencies": {

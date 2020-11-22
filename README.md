@@ -1,4 +1,4 @@
-<p align="center"><img width="128px" height="112px" src="./assets/vue3.jpg" alt="Vue Init logo"></p>
+<p align="center"><img width="128px" height="112px" src="https://raw.githubusercontent.com/912380760/vue3-init-npm/master/assets/vue3.jpg" alt="Vue Init logo"></p>
 <h1 align="center">vue3-init</h1>
 
 
@@ -8,6 +8,7 @@
 
 
 ## :loudspeaker: Notice
+install `npm install -g vue3-init or yarn add global vue3-init`  
 Quickly create a vue3 project `vue3-init create`  
 Open the folder you entered `cd your Folder`   
 Install node dependencies `yarn or npm install`😉

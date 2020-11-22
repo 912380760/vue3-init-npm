@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a46a493-6c43-4a7e-9daf-69c499aff835" name="默认的" comment="init 0.1.1 version">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="0a46a493-6c43-4a7e-9daf-69c499aff835" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day6/ccc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,7 +47,7 @@
       <workItem from="1606017225022" duration="3619000" />
       <workItem from="1606028356967" duration="3210000" />
       <workItem from="1606031878444" duration="3918000" />
-      <workItem from="1606035892636" duration="379000" />
+      <workItem from="1606035892636" duration="2224000" />
     </task>
     <task id="LOCAL-00001" summary="init 0.1.1 version">
       <created>1606031915335</created>
@@ -56,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606031915335</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.0.3 version">
+      <created>1606036313863</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606036313863</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,25 +71,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init 0.1.1 version" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 0.1.1 version" />
+    <MESSAGE value="1.0.3 version" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.3 version" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="649" y="115" key="CommitChangelistDialog2" timestamp="1606035018858">
+    <state x="649" y="115" key="CommitChangelistDialog2" timestamp="1606036312858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="649" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606035018858" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606034775483">
+    <state x="649" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606036312858" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606037863483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606034775483" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606037863483" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1606035911613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606035911613" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606031918224">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606036319384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606031918224" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606036319384" />
     <state x="698" y="252" width="524" height="536" key="find.popup" timestamp="1606015013329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
