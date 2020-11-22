@@ -1,6 +1,6 @@
 {
   "name": "vue3-init",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Quickly initialize the vue3 project",
   "main": "index.js",
   "bin": {
@@ -25,6 +25,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/912380760/vue3-init"
+    "url": "https://github.com/912380760/vue3-init-npm"
   }
 }
