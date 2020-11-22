@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a46a493-6c43-4a7e-9daf-69c499aff835" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
       <workItem from="1606017225022" duration="3619000" />
       <workItem from="1606028356967" duration="3210000" />
       <workItem from="1606031878444" duration="3918000" />
-      <workItem from="1606035892636" duration="3077000" />
+      <workItem from="1606035892636" duration="3215000" />
     </task>
     <task id="LOCAL-00001" summary="init 0.1.1 version">
       <created>1606031915335</created>
@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606038954962</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change version">
+      <created>1606039016782</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606039016782</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,17 +111,18 @@
     <MESSAGE value="add CHANGELOG.md" />
     <MESSAGE value="add author" />
     <MESSAGE value="change repository.url" />
-    <option name="LAST_COMMIT_MESSAGE" value="change repository.url" />
+    <MESSAGE value="change version" />
+    <option name="LAST_COMMIT_MESSAGE" value="change version" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="649" y="115" key="CommitChangelistDialog2" timestamp="1606038953797">
+    <state x="649" y="115" key="CommitChangelistDialog2" timestamp="1606039015671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="649" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606038953797" />
-    <state x="184" y="95" key="DiffContextDialog" timestamp="1606038946246">
+    <state x="649" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606039015671" />
+    <state x="184" y="95" key="DiffContextDialog" timestamp="1606039011287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="95" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606038946246" />
+    <state x="184" y="95" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606039011287" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606037863483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -123,10 +131,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606035911613" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606038920400">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606039020527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606038920400" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606039020527" />
     <state x="698" y="252" width="524" height="536" key="find.popup" timestamp="1606015013329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

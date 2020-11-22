@@ -3,12 +3,12 @@
 
 
 <p align="center">Project init plugin for Vue.js</p>
+<p align="center">Install `npm install -g vue3-init or yarn add global vue3-init`</p>
 
 <br/>
 
 
 ## :loudspeaker: Notice
-Install `npm install -g vue3-init or yarn add global vue3-init`  
 Quickly create a vue3 project `vue3-init create`  
 Open the folder you entered `cd your Folder`   
 Install node dependencies `yarn or npm install`😉
