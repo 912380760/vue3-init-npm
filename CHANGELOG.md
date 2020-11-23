@@ -1,3 +1,8 @@
+# v1.0.8 / 2020-11-24
+
+* Optimized code
+
+
 # v1.0.7 / 2020-11-22
 
 * Add `vue3-init project`
